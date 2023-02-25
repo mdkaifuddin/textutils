@@ -9,8 +9,8 @@ function App() {
      <BrowserRouter>
      <Navbar title='TextUtils' about='About Us' />
       <Routes>
-        <Route exact path ='textutils/' element={<TextForm/>}/>
-        <Route exact path ='textutils/about' element={<About/>}/>
+        <Route exact path ='https://www.mdkaifuddin.github.io/textutils' element={<TextForm/>}/>
+        <Route exact path ='https://www.mdkaifuddin.github.io/textutils/about' element={<About/>}/>
       </Routes>
      </BrowserRouter>
     </>
