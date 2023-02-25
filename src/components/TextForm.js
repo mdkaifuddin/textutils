@@ -35,10 +35,10 @@ export default function TextForm(props) {
                 <div className="form-floating container">
                     <textarea onChange={handleOnChange} value={text} rows='20' className="form-control" placeholder="Leave a comment here" id="mybox"></textarea>
                     <br />
-                    <button onClick={handleUppercase} type="button" className="mx-1 btn btn-primary">Convert to Uppercase</button>
-                    <button onClick={handleLowercase} type="button" className="mx-1 btn btn-primary">Convert to LowerCase</button>
-                    <button onClick={handleCopy} type="button" className="mx-1 btn btn-primary">Copy to ClipBoard</button>
-                    <button onClick={handleExtraspace} type="button" className="mx-1 btn btn-primary">Remove Extra Space</button>
+                    <button onClick={handleUppercase} type="button" className="mx-1 my-1 btn btn-primary">Convert to Uppercase</button>
+                    <button onClick={handleLowercase} type="button" className="mx-1 my-1 btn btn-primary">Convert to LowerCase</button>
+                    <button onClick={handleCopy} type="button" className="mx-1 my-1 btn btn-primary">Copy to ClipBoard</button>
+                    <button onClick={handleExtraspace} type="button" className="mx-1 my-1 btn btn-primary">Remove Extra Space</button>
                 </div>
             </div>
             <div className="container my-3">
